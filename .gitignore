@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.ruff_cache/
+
+# Claude Code: cấu hình cá nhân
+.claude/settings.local.json
+CLAUDE.local.md
+
+# File khóa tạm của Office khi đang mở file
+~$*

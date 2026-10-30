@@ -1,0 +1,173 @@
+{
+  "problem1": {
+    "gross_margin": 0.20739573324082192,
+    "ship_cost_avg": 11.030102347983142,
+    "contribution_per_order": 60.432551219747154,
+    "orders_2019": 1993,
+    "profit_2019": 50442.074580956076,
+    "gs_breakeven_orders": 1158.3161489486572,
+    "gs_target_orders": 1820.2110912050327,
+    "gs_target_aov": 406.75034135615124
+  },
+  "problem2": {
+    "Ngân sách thấp": {
+      "allocation": {
+        "Central": 10000.0,
+        "East": 11504.0,
+        "South": 17782.0,
+        "West": 20714.0
+      },
+      "uplift": 75175.92684198695,
+      "equal_split_uplift": 71411.01032776799
+    },
+    "Ngân sách cơ sở": {
+      "allocation": {
+        "Central": 10000.0,
+        "East": 24842.0,
+        "South": 31141.0,
+        "West": 34017.0
+      },
+      "uplift": 104815.52435071791,
+      "equal_split_uplift": 100047.72145300216
+    },
+    "Ngân sách cao": {
+      "allocation": {
+        "Central": 20000.0,
+        "East": 40000.0,
+        "South": 40000.0,
+        "West": 40000.0
+      },
+      "uplift": 122113.18011904723,
+      "equal_split_uplift": 119243.48297277841
+    },
+    "gs_equal_split_budget": 118744.6617657015
+  },
+  "problem3": {
+    "Thắt chặt": {
+      "purchase": {
+        "Phones": 54017.8,
+        "Chairs": 45850.11,
+        "Binders": 55942.58,
+        "Storage": 32674.9,
+        "Copiers": 52835.49,
+        "Tables": 33613.24,
+        "Accessories": 41483.45,
+        "Machines": 23514.12,
+        "Appliances": 37639.11,
+        "Bookcases": 16213.11,
+        "Furnishings": 24368.85,
+        "Paper": 20463.55,
+        "Supplies": 7848.44,
+        "Art": 7413.53,
+        "Labels": 2768.18,
+        "Envelopes": 2635.29,
+        "Fasteners": 718.26
+      },
+      "gross_profit": 139938.62050205123,
+      "budget_used": 459999.99999999994,
+      "space_used": 578.0338398606,
+      "shadow_budget": 0.28205128205128205,
+      "shadow_capacity": 0.0,
+      "total_cost_demand": 686761.8134880001,
+      "total_volume_demand": 954.3416979
+    },
+    "Cơ sở": {
+      "purchase": {
+        "Phones": 61856.69,
+        "Chairs": 45850.11,
+        "Binders": 55942.58,
+        "Storage": 63957.46,
+        "Copiers": 52835.49,
+        "Tables": 33613.24,
+        "Accessories": 54513.55,
+        "Machines": 23514.12,
+        "Appliances": 37639.11,
+        "Bookcases": 16213.11,
+        "Furnishings": 24368.85,
+        "Paper": 20463.55,
+        "Supplies": 15696.88,
+        "Art": 7413.53,
+        "Labels": 2768.18,
+        "Envelopes": 2635.29,
+        "Fasteners": 718.26
+      },
+      "gross_profit": 154433.3457961046,
+      "budget_used": 519999.99999999994,
+      "space_used": 649.9999999999999,
+      "shadow_budget": 0.15310077519379847,
+      "shadow_capacity": 48.44961240310076,
+      "total_cost_demand": 686761.8134880001,
+      "total_volume_demand": 954.3416979
+    },
+    "Mở rộng": {
+      "purchase": {
+        "Phones": 108035.6,
+        "Chairs": 49755.15,
+        "Binders": 55942.58,
+        "Storage": 65349.79,
+        "Copiers": 52835.49,
+        "Tables": 33613.24,
+        "Accessories": 54513.55,
+        "Machines": 47028.25,
+        "Appliances": 37639.11,
+        "Bookcases": 16213.11,
+        "Furnishings": 24368.85,
+        "Paper": 20463.55,
+        "Supplies": 15696.88,
+        "Art": 7413.53,
+        "Labels": 2768.18,
+        "Envelopes": 2635.29,
+        "Fasteners": 718.26
+      },
+      "gross_profit": 165768.80979679024,
+      "budget_used": 594990.4036276002,
+      "space_used": 700.0,
+      "shadow_budget": 0.0,
+      "shadow_capacity": 87.80487804878048,
+      "total_cost_demand": 686761.8134880001,
+      "total_volume_demand": 954.3416979
+    }
+  },
+  "problem4": {
+    "Mục tiêu 25%": {
+      "orders": {
+        "Same Day": 99.6,
+        "First Class": 99.6,
+        "Second Class": 925.7,
+        "Standard Class": 868.0
+      },
+      "total_cost": 21967.623489010988,
+      "fast_rate": 0.25,
+      "avg_days": 3.808239373447066,
+      "shadow_fast_orders": -13.589743589743591,
+      "baseline_cost": 21982.9939795304
+    },
+    "Mục tiêu 30%": {
+      "orders": {
+        "Same Day": 99.6,
+        "First Class": 99.6,
+        "Second Class": 1196.5,
+        "Standard Class": 597.2
+      },
+      "total_cost": 23321.841437728937,
+      "fast_rate": 0.29999999999999993,
+      "avg_days": 3.5681236601005835,
+      "shadow_fast_orders": -13.589743589743591,
+      "baseline_cost": 21982.9939795304
+    },
+    "Mục tiêu 35%": {
+      "orders": {
+        "Same Day": 99.6,
+        "First Class": 99.6,
+        "Second Class": 1467.4,
+        "Standard Class": 326.3
+      },
+      "total_cost": 24676.059386446886,
+      "fast_rate": 0.35,
+      "avg_days": 3.328007946754101,
+      "shadow_fast_orders": -13.589743589743591,
+      "baseline_cost": 21982.9939795304
+    }
+  },
+  "problem4_gs_first_class_share": 0.30332824856044294
+}
