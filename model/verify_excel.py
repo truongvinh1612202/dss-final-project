@@ -13,7 +13,7 @@ from openpyxl import load_workbook
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import params as P
 
-XLSX = P.ROOT / "output" / "MaNhom_Model.xlsx"
+XLSX = P.ROOT / "output" / "PhanB_Dap_an_tham_khao.xlsx"
 REF = P.ROOT / "output" / "reference.json"
 REPORT = P.ROOT / "docs" / "PhanB_Ket_qua.md"
 TOL = 0.005  # sai số tương đối cho phép giữa Excel và scipy
@@ -201,7 +201,7 @@ def main():
     s4 = ref["problem4"]
     text = f"""# Phần B – Kết quả mô hình (tự sinh)
 
-> File này do `model/verify_excel.py` sinh từ `output/MaNhom_Model.xlsx` sau khi Excel chạy Goal Seek, Data Table,
+> File này do `model/verify_excel.py` sinh từ `output/PhanB_Dap_an_tham_khao.xlsx` sau khi Excel chạy Goal Seek, Data Table,
 > Scenario Manager và Solver. Không sửa tay. Diễn giải và ý nghĩa quản lý xem `docs/PhanB_Mo_hinh.md`.
 
 ## Đối chiếu Excel ↔ scipy ({len(checks) - len(failed)}/{len(checks)} khớp, sai số ≤ {TOL:.1%})

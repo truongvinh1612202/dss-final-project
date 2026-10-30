@@ -21,13 +21,12 @@
 ## Cấu trúc thư mục
 
 ```
-archive/      dữ liệu gốc tải từ Kaggle (train.csv)
-data/raw/     bản sao bất biến của dữ liệu gốc
+data/raw/     dữ liệu gốc tải từ Kaggle (train.csv), không sửa
 data/clean/   dữ liệu sau tiền xử lý (Superstore_clean.csv)
 data/star/    star schema: Fact_Sales + 5 bảng Dim
-etl/          script tiền xử lý, tách star schema, tính KPI tham chiếu (+ M code cho Power Query)
+etl/          script tiền xử lý, tách star schema, tính KPI tham chiếu
 model/        script dựng mô hình Excel Phần B, lời giải đối chiếu (scipy)
-output/       file Excel mẫu, bản đáp án tham chiếu
+output/       file Excel mẫu (PhanB_Mau_nhap_lieu.xlsx), bản đáp án tham khảo (PhanB_Dap_an_tham_khao.xlsx, không nộp)
 docs/         hướng dẫn, nhật ký xử lý, KPI/DAX, mô hình và kết quả Phần B
 ```
 
@@ -41,7 +40,7 @@ python -I etl/build_star_schema.py     # star schema → data/star + docs/Kiem_t
 python -I etl/kpi_reference.py         # KPI tham chiếu → docs/KPI_doi_chieu.md
 
 python -I model/solve_reference.py     # lời giải đối chiếu → output/reference.json
-python -I model/build_model.py         # bản đáp án → output/MaNhom_Model.xlsx
+python -I model/build_model.py         # bản đáp án → output/PhanB_Dap_an_tham_khao.xlsx
 powershell -NoProfile -ExecutionPolicy Bypass -File model/apply_excel_tools.ps1
 python -I model/verify_excel.py        # đối chiếu Excel ↔ scipy → docs/PhanB_Ket_qua.md
 python -I model/build_template.py      # file mẫu → output/PhanB_Mau_nhap_lieu.xlsx

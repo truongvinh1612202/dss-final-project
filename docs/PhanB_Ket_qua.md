@@ -1,6 +1,6 @@
 # Phần B – Kết quả mô hình (tự sinh)
 
-> File này do `model/verify_excel.py` sinh từ `output/MaNhom_Model.xlsx` sau khi Excel chạy Goal Seek, Data Table,
+> File này do `model/verify_excel.py` sinh từ `output/PhanB_Dap_an_tham_khao.xlsx` sau khi Excel chạy Goal Seek, Data Table,
 > Scenario Manager và Solver. Không sửa tay. Diễn giải và ý nghĩa quản lý xem `docs/PhanB_Mo_hinh.md`.
 
 ## Đối chiếu Excel ↔ scipy (20/20 khớp, sai số ≤ 0.5%)

@@ -27,7 +27,7 @@ Tài liệu dành cho các thành viên trong nhóm, gồm hai phần:
 ### 1.2 Quy trình xử lý (bằng Python, có thể chạy lại)
 
 ```
-archive/train.csv ──► data/raw/train.csv (bản gốc, chỉ đọc)
+train.csv (Kaggle) ──► data/raw/train.csv (bản gốc, chỉ đọc)
                          │  etl/preprocess.py        → làm sạch + thêm cột
                          ▼
                data/clean/Superstore_clean.csv (9.799 dòng)
@@ -387,7 +387,7 @@ Trong các bảng bên dưới, giá trị **không bắt đầu bằng `=`** l�
 
 - Ý nghĩa của từng mô hình và cách viết báo cáo: xem `docs/PhanB_Mo_hinh.md`.
 - Đáp án để tự kiểm tra: in đậm cuối mỗi bước, và đầy đủ trong `docs/PhanB_Ket_qua.md`.
-- File `output/MaNhom_Model.xlsx` là bản mẫu để so khi bị lệch. **Nộp file nhóm tự làm**, không nộp bản mẫu.
+- File `output/PhanB_Dap_an_tham_khao.xlsx` là bản mẫu để so khi bị lệch. **Nộp file nhóm tự làm**, không nộp bản mẫu.
 
 Thời gian ước tính khoảng 1,5–2 giờ khi dùng file mẫu. Có thể chia mỗi thành viên một bài, nhưng **mọi người nên tự làm thử ít nhất một lần Solver và một lần Data Table**, vì khi thuyết trình sẽ phải demo.
 

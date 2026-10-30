@@ -1,6 +1,7 @@
 # Phần B: Model-Driven DSS với Excel
 
-File nộp: `output/MaNhom_Model.xlsx`. Khi nộp, đổi `MaNhom` thành mã nhóm.
+File nộp: `MaNhom_Model.xlsx`, do nhóm tự dựng từ file mẫu `output/PhanB_Mau_nhap_lieu.xlsx` theo PHẦN B của `docs/Huong_dan_PowerBI.md`. Khi nộp, đổi `MaNhom` thành mã nhóm.
+Bản đáp án tham khảo để đối chiếu (không nộp): `output/PhanB_Dap_an_tham_khao.xlsx`. Các mục 0.2 và 0.4 bên dưới mô tả bản đáp án này.
 Toàn bộ số liệu kết quả và bảng Scenario Summary đầy đủ nằm ở `docs/PhanB_Ket_qua.md`, file này do script tự sinh từ chính file Excel.
 
 ## 0. Tổng quan
@@ -41,7 +42,7 @@ Dataset chỉ có doanh thu, không có giá vốn hay lợi nhuận. Vì vậy:
 ### 0.4 Chạy lại toàn bộ
 ```
 python -I model/solve_reference.py      # lời giải đối chiếu bằng scipy → output/reference.json
-python -I model/build_model.py          # dựng workbook → output/MaNhom_Model.xlsx
+python -I model/build_model.py          # dựng workbook → output/PhanB_Dap_an_tham_khao.xlsx
 powershell -NoProfile -ExecutionPolicy Bypass -File model/apply_excel_tools.ps1   # Excel thật chạy Goal Seek, Data Table, Scenario, Solver
 python -I model/verify_excel.py         # đối chiếu Excel với scipy → docs/PhanB_Ket_qua.md
 ```

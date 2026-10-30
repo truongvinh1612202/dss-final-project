@@ -1,4 +1,4 @@
-# Runs the real Excel what-if tools on output/MaNhom_Model.xlsx via COM:
+# Runs the real Excel what-if tools on output/PhanB_Dap_an_tham_khao.xlsx via COM:
 #   Goal Seek, Data Table, Scenario Manager (+ summaries), Solver (+ Answer/Sensitivity reports).
 # Configuration comes from output/excel_tools.json, written by model/build_model.py.
 #
@@ -7,7 +7,7 @@
 
 $ErrorActionPreference = 'Stop'
 $root = Split-Path -Parent $PSScriptRoot
-$xlsxPath = Join-Path $root 'output\MaNhom_Model.xlsx'
+$xlsxPath = Join-Path $root 'output\PhanB_Dap_an_tham_khao.xlsx'
 $tools = Get-Content (Join-Path $root 'output\excel_tools.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $missing = [Type]::Missing
 

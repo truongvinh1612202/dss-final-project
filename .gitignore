@@ -9,3 +9,7 @@ CLAUDE.local.md
 
 # File khóa tạm của Office khi đang mở file
 ~$*
+
+# File trung gian của script Phần B (tự sinh lại)
+output/excel_tools.json
+output/reference.json

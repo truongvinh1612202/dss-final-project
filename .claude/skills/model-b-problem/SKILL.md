@@ -5,7 +5,7 @@ description: Design one Part B (Excel Model-Driven DSS) decision problem for thi
 
 Design or write up a Part B decision problem. Topic or problem idea: $ARGUMENTS (if empty, propose 3–4 candidates that fit the Superstore data and let the user pick).
 
-1. **Ground it in the data.** Compute the real inputs from `archive/train.csv` with pandas: sales by Sub-Category, Region, Segment, Ship Mode or month as relevant. Parse dates with `format="%d/%m/%Y"` and drop the duplicate row. Show the numbers you derive.
+1. **Ground it in the data.** Compute the real inputs from `data/clean/Superstore_clean.csv` (already cleaned) with pandas: sales by Sub-Category, Region, Segment, Ship Mode or month as relevant. Dates there are already ISO (`yyyy-mm-dd`) and the duplicate row is already removed; read `Postal Code` as str. Show the numbers you derive.
 2. **List the simulated assumptions.** The dataset only has Sales, so state each parameter you invent (COGS %, shipping cost per Ship Mode, fixed cost, marketing elasticity, budget cap, capacity…) in a table with value, unit and rationale. Keep them plausible and few.
 3. **Model components.** Write them in Vietnamese:
    - Biến quyết định: the cells the manager controls.

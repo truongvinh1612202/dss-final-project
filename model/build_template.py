@@ -4,7 +4,7 @@ Chạy: python -I model/build_template.py
 Đầu ra: output/PhanB_Mau_nhap_lieu.xlsx
 
 Giữ nguyên bố cục, nhãn, màu ô, định dạng số, số liệu 2018, giả định, tham số và giá trị
-khởi đầu của biến quyết định như output/MaNhom_Model.xlsx. Bỏ toàn bộ:
+khởi đầu của biến quyết định như output/PhanB_Dap_an_tham_khao.xlsx. Bỏ toàn bộ:
 công thức, Data Table, named range, kết quả Goal Seek/Solver/Scenario.
 Hướng dẫn tự làm: docs/Huong_dan_PowerBI.md, PHẦN B.
 """

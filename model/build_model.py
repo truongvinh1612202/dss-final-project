@@ -2,7 +2,7 @@
 
 Chạy: python -I model/build_model.py
 Đầu ra:
-  output/MaNhom_Model.xlsx  — workbook có công thức, named range, khung Data Table/Goal Seek
+  output/PhanB_Dap_an_tham_khao.xlsx  — workbook có công thức, named range, khung Data Table/Goal Seek
   output/excel_tools.json   — cấu hình cho model/apply_excel_tools.ps1 (chạy Goal Seek,
                               Data Table, Scenario Manager, Solver bằng Excel thật)
 """
@@ -19,7 +19,7 @@ from openpyxl.workbook.defined_name import DefinedName
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import params as P
 
-OUT_XLSX = P.ROOT / "output" / "MaNhom_Model.xlsx"
+OUT_XLSX = P.ROOT / "output" / "PhanB_Dap_an_tham_khao.xlsx"
 OUT_TOOLS = P.ROOT / "output" / "excel_tools.json"
 
 # ------------------------------------------------------------------ Định dạng
